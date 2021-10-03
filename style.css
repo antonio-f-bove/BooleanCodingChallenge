@@ -1,0 +1,66 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  width: 60%;
+  margin: auto;
+  background-color: : 55,55,55,0.9;
+  color: white;
+}
+
+.bloccoPrincipale{
+  background-color: rgba(0,0,0,0.5);
+  margin-top: 30px;
+  border-radius: 3%;
+  padding: 10%;
+}
+
+/*formattazione header */
+header h1{
+  margin-top: 1px;
+}
+header img{
+  width: 20%;
+}
+header{
+  color: rgb(50,255,50);
+  text-align: center;
+}
+
+/* formattazione nav */
+nav{
+  text-align: center;
+  background-color: rgb(50,255,50);
+  height: 35px;
+}
+nav button{
+  /* come si centra verticalmente? */
+}
+
+/* formattazione main */
+.monopattino h3{
+  display: inline;
+}
+
+/* livelli di carica batteria */
+.batteriaMedia{
+  width: 50%;
+  border-radius: 5px;
+  background-color: orange;
+  color: orange;
+}
+.batteriaCarica{
+  width: 94%;
+  border-radius: 5px;
+  background-color: lightgreen;
+  color: lightgreen;
+}
+.batteriaScarica{
+  width: 20%;
+  border-radius: 5px;
+  background-color: red;
+  color: red;
+}
